@@ -5,7 +5,7 @@ builder.Services.AddRazorPages();
 
 builder.Configuration
 .AddAzureAppConfiguration(options=> {
-    options.Connect("Endpoint=https://applicationconfig1234.azconfig.io;Id=KK/J;Secret=EJ5QEI2kqo945Py18ThZHeTwDZClRJ02UENTpxfYKDbVLYiEbL4JJQQJ99AGACi5YpzSf5FgAAABAZACjXeL");
+    options.Connect("Endpoint=https://learningappconfig12345.azconfig.io;Id=yP2j;Secret=1VvSNzGslXZkJmh9feJkPzZkE6XlbhDeFGDAIeLdRQ2846loCmVAJQQJ99AGACi5YpzSf5FgAAACAZACvHvb");
     options.UseFeatureFlags();
     });
 
